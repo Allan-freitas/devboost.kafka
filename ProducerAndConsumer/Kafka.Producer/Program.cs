@@ -32,7 +32,7 @@ namespace Kafka.Producer
 
                 using (IProducer<Null, string> producer = new ProducerBuilder<Null, string>(config).Build())
                 {
-                    for (int i = 2; i < args.Length; i++)
+                    for (int i = 0; i < 10; i++)
                     {
                         var result = await producer.ProduceAsync(
                             nomeTopic,
@@ -40,7 +40,7 @@ namespace Kafka.Producer
                             { Value = burroCarga });
 
                         logger.Information(
-                            $"Mensagem: {args[i]} | " +
+                            $"Mensagem: {burroCarga} | " +
                             $"Status: { result.Status}");
                     }
                 }

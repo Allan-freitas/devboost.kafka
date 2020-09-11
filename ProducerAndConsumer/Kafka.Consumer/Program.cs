@@ -22,7 +22,7 @@ namespace Kafka.Consumer
             Console.CancelKeyPress += (_, e) =>
             {
                 e.Cancel = true; // prevent the process from terminating.
-                    cts.Cancel();
+                cts.Cancel();
             };
             try
             {
@@ -47,4 +47,5 @@ namespace Kafka.Consumer
                 c.Close();
             }
         }
+    }
 }
