@@ -32,7 +32,7 @@ namespace Kafka.Consumer
                     {
                         var cr = c.Consume(cts.Token);
 
-                        Console.WriteLine($"Consumed message '{cr.Message}' at: '{cr.TopicPartitionOffset}'.");
+                        Console.WriteLine($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
                     }
                     catch (ConsumeException e)
                     {

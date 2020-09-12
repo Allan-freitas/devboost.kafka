@@ -31,3 +31,4 @@ D:\Projetos\Kafka\ProducerAndConsumer\Kafka.Producer\obj\Debug\netcoreapp3.1\Kaf
 D:\Projetos\Kafka\ProducerAndConsumer\Kafka.Producer\obj\Debug\netcoreapp3.1\Kafka.Producer.dll
 D:\Projetos\Kafka\ProducerAndConsumer\Kafka.Producer\obj\Debug\netcoreapp3.1\Kafka.Producer.pdb
 D:\Projetos\Kafka\ProducerAndConsumer\Kafka.Producer\obj\Debug\netcoreapp3.1\Kafka.Producer.genruntimeconfig.cache
+D:\Projetos\Kafka\ProducerAndConsumer\Kafka.Producer\obj\Debug\netcoreapp3.1\Kafka.Producer.csprojAssemblyReference.cache

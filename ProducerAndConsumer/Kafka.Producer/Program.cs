@@ -32,7 +32,7 @@ namespace Kafka.Producer
 
                 using (IProducer<Null, string> producer = new ProducerBuilder<Null, string>(config).Build())
                 {
-                    for (int i = 0; i < 1000; i++)
+                    for (int i = 0; i < 100; i++)
                     {
                         var result = await producer.ProduceAsync(
                             nomeTopic,
