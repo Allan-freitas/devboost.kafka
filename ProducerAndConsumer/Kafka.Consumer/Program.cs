@@ -11,7 +11,7 @@ namespace Kafka.Consumer
             var config = new ConsumerConfig
             {
                 GroupId = "test-consumer-group",
-                BootstrapServers = "192.168.88.48:9092",
+                BootstrapServers = "omv.serveblog.net:29092",
                 AutoOffsetReset = AutoOffsetReset.Earliest,
             };
 
@@ -32,7 +32,7 @@ namespace Kafka.Consumer
                     {
                         var cr = c.Consume(cts.Token);
 
-                        Console.WriteLine($"Consumed message '{cr.Value}' at: '{cr.TopicPartitionOffset}'.");
+                        Console.WriteLine($"Consumed message '{cr.Message.Value}' at: '{cr.TopicPartitionOffset}'.");
                     }
                     catch (ConsumeException e)
                     {
