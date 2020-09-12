@@ -259,7 +259,3 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-/App.WebApi/App_Data/Logs/Error/Error47ee3ac9-f20f-4592-865e-a892dd44e979.txt
-/App.WebApi/App_Data/Logs/Error/Errord9d1e37a-82df-4ac4-9243-1000f87c9651.txt
-/App.WebApi/App_Data/Logs/Error/Error1a37d9b0-bc28-4a69-a4e4-4629137bbac1.txt
-*.txt
