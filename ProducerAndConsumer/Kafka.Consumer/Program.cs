@@ -11,7 +11,7 @@ namespace Kafka.Consumer
             var config = new ConsumerConfig
             {
                 GroupId = "test-consumer-group",
-                BootstrapServers = "omv.serveblog.net:29092",
+                BootstrapServers = "192.168.88.48:29092",
                 AutoOffsetReset = AutoOffsetReset.Earliest,
             };
 

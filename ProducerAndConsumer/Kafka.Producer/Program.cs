@@ -16,7 +16,7 @@ namespace Kafka.Producer
 
             logger.Information("Testando o envio de mensagens com Kafka");
 
-            const string bootstrapServers = "omv.serveblog.net:29092";
+            const string bootstrapServers = "192.168.88.48:29092";
             const string nomeTopic = "devboost";
             string burroCarga = $"Mensagem => {Guid.NewGuid()} Hora => {DateTime.Now}";
 
